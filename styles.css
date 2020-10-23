@@ -1,0 +1,268 @@
+body {
+    font-family: 'Open Sans', 'sans-serif';
+    margin: 0;
+    padding: 0;
+}
+.p {
+ font-size: 20 px;
+}
+#title-principal {
+    font-size: 30px;
+    color:white;
+}
+li {
+    list-style: none;
+    margin-right: 25px;
+    color:white;
+}
+.class_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.class_menu_ul{
+    display: flex;
+}
+.class_titular {
+    text-align: center;
+    margin-top: 200px;
+}
+h1 {
+    font-size: 60 px;
+    margin:0;
+    color:#0D47A1;
+}
+h2 {
+    font-size: 25px;
+    margin-bottom: 40px;
+    color:#0D47A1;
+}
+a {
+    font-size: 14px;
+    padding:20px 30px 20px 30px;
+    color:white;
+    background-color:#5cb8ff;
+    text-decoration: none;
+}
+header {
+    background: url(assets/fondo6.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+.contenedor {
+    max-width: 1280px;
+    width: 90%;
+    margin: auto;
+}
+
+/*Section sobre mi */
+h3 {
+    text-align: center;
+    font-size: 55px;
+    font-weight: normal;
+}
+.contenedor_sobre_mi {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contenedor_text_button {
+    width: 42%;
+}
+.contenderor_text_button p{
+    font-size: 18px;
+}
+.p_final {
+    padding-bottom: 30px;
+}
+.contenedor_text_button a{
+    margin-top: 18px;
+}
+.contenedor_servicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.servicio {
+    width: 25%;
+    padding: 50px 38px 50px 38px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    color: white;
+}
+.servicio h4 {
+    font-size: 30px;
+    margin: 0;
+}
+.servicio img {
+    float: right;
+}
+.servicio p{
+    font-size: 18px;
+}
+.violeta {
+    background-color:#9575CD;
+}
+.celeste {
+    background-color: #4FC3F7;
+}
+span {
+    font-size: 80px;
+    color: blue;
+}
+.owl-nav {
+    text-align: center;
+}
+.contenedor-porque {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.contenedor-porque h4 {
+    margin: 0;
+    font-size: 20px;
+}
+.contenedor-porque p {
+    font-size: 16px;
+    line-height: 28px;
+}
+.porque-singular {
+    width: 28%;
+}
+#blog {
+    background: #F9FAFC;
+    padding-top: 50px;
+}
+#blog img {
+    width: 100%;
+}
+#blog h4 {
+    margin: 0;
+    padding: 20px;
+}
+#blog p {
+    color: #5A6169;
+    line-height: 24px;
+    font-size: 16px;
+    padding: 10px 20px 20px 20px;
+    margin: 0;
+}
+#blog a {
+    display: inline-block;
+    margin-left: 20px;
+}
+.contenedor-blog {
+    display: flex;
+    justify-content: space-around;
+}
+.blog {
+    width: 30%;
+    box-shadow: 1px 1px 14px #ccc;
+    padding-bottom: 20px;
+}
+.blog-2 img{
+    height: 280px;
+}
+#que-esperas{
+    background: linear-gradient(rgba(84,93,220,94),rgba(96,171,245,9));
+    text-align: center;
+    padding: 50px 0 50px 0;
+    margin-top: 30px;
+}
+#que-esperas h3 {
+    font-size: 23px;
+    color: #fff;
+    margin-bottom: 40px;
+}
+#que-esperas a {
+    padding: 15px 45px 15px 45px;
+    transition: 1s;
+}
+#que-esperas a:hover{
+    color: black;
+    transition: 1s;
+}
+#whatsapp a {
+    background: none;
+    position: fixed;
+    top: 80%;
+    right: 1%;
+}
+.menu-icon {
+    display: none;
+}
+@media (max-width: 480px){
+    nav {
+        position: absolute;
+        top: 70px;
+        left: 0px;
+        background:#5cb8ff;
+        width: 100%;
+        display: none;
+    }
+    nav .class_menu_ul {
+        flex-direction: column;
+        display: flex;
+    }
+    .menu-icon {
+        display: block;
+        width:25px;
+    }
+    .class_titular {
+        margin-top: 150px;
+    }
+    h1 {
+        font-size: 49px;
+        color: white;
+    }
+    h2 {
+        font-size: 19px;
+        color: white;
+    }
+    .contenedor_sobre_mi{
+        flex-direction: column;
+    }
+    .contenedor_text_button {
+        width: 90%;
+    }
+    .contenedor_servicio {
+        flex-direction: column;
+    }
+    .servicio {
+        width: 72%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    h3 {
+        font-size: 46px;
+    }
+    .contenedor-porque {
+        flex-direction: column;
+    }
+    .porque-singular {
+        width: 95%;
+    }
+    .contenedor-blog {
+        flex-direction: column;
+    }
+    .blog {
+        width: 85%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .img-sobremi {
+        width: 90%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    header {
+        height: 53vh;
+    }
+    .img-sobremi {
+        width:50%;
+    }
+    .servicio {
+        width:54%;
+    }
+}
